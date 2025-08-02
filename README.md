@@ -1,6 +1,6 @@
-# VowTrove - Your Digital Companion
+# VowTrove - Game Token Reward App Website
 
-A modern, responsive website showcasing VowTrove's mobile applications with beautiful UI design and smooth animations.
+A modern, responsive website showcasing VowTrove's legitimate reward platform with beautiful UI design, smooth animations, and Google Drive integration for APK downloads.
 
 ## 🌟 Features
 
@@ -8,12 +8,17 @@ A modern, responsive website showcasing VowTrove's mobile applications with beau
 - **Responsive Layout**: Fully responsive design that works on all devices
 - **Interactive Elements**: Smooth scrolling, hover effects, and mobile navigation
 - **App Showcase**: Dedicated section to display and download your mobile applications
-- **Contact Form**: Functional contact form with validation
-- **Performance Optimized**: Fast loading with optimized CSS and JavaScript
+- **Google Drive Integration**: APK hosted on Google Drive for better performance
+- **Legal Compliance**: Privacy policy and terms of service modals
+- **SEO Optimized**: Structured data, sitemap, and meta tags
+- **Notification System**: User-friendly download notifications
+- **Loading States**: Professional loading animations
+- **Contact System**: Email integration with support contact
+- **Provider Compliance**: Clear messaging for offerwall providers
 
 ## 📱 App Showcased
 
-- **VowTrove** - Your ultimate digital companion with advanced features and intuitive design
+- **VowTrove** - Game Token Reward App with survey integration, ad rewards, and voucher redemption system
 
 ## 🚀 Getting Started
 
@@ -61,7 +66,10 @@ python -m http.server 8000
    - `styles.css`
    - `script.js`
    - `README.md`
-3. Add a commit message like "Initial website upload"
+   - `robots.txt`
+   - `sitemap.xml`
+   - `images/app_logo.png`
+3. Add a commit message like "Initial VowTrove website upload"
 4. Click "Commit changes"
 
 #### Option B: Using Git Commands
@@ -98,19 +106,33 @@ Your website will be available at: `https://yourusername.github.io/vowtrove-webs
 
 ```
 vowtrove-website/
-├── index.html          # Main HTML file
-├── styles.css          # CSS styles and animations
-├── script.js           # JavaScript functionality
-└── README.md          # This file
+├── index.html              # Main HTML file with all sections
+├── styles.css              # CSS styles and animations
+├── script.js               # JavaScript functionality
+├── robots.txt              # Search engine crawling instructions
+├── sitemap.xml             # Site structure for SEO
+├── README.md              # This file
+├── DEPLOYMENT.md          # General deployment guide
+├── GITHUB_DEPLOYMENT.md   # GitHub-specific deployment guide
+└── images/
+    └── app_logo.png       # App logo (158KB)
 ```
 
 ## 🎨 Customization
 
-### Adding Your VowTrove App
+### Updating Your VowTrove App
 
-1. **Update App Information**: Edit the app details in `index.html` (lines 150-200)
-2. **Add APK Download**: Replace the `#` link in download button with actual APK file URL
-3. **Custom Icon**: Change the Font Awesome icon in the app section
+1. **Update App Information**: Edit the app details in `index.html`
+2. **Update Google Drive Link**: Replace the Google Drive URL with your new APK link
+3. **Update Version Info**: Change version numbers and file sizes in download section
+4. **Custom Logo**: Replace `images/app_logo.png` with your new logo
+
+### Google Drive APK Hosting
+
+The website uses Google Drive for APK hosting:
+- **Current Link**: `https://drive.usercontent.google.com/download?id=1fh5PVVIZvQhS9MRD0deRVUS62XPpNOop&export=download&authuser=0`
+- **Benefits**: Better performance, no repository bloat, global CDN
+- **Updates**: Upload new APK to Drive and update the link in `index.html`
 
 ### Changing Colors
 
@@ -118,6 +140,7 @@ The website uses a modern color scheme:
 - Primary: `#6366f1` (Indigo)
 - Secondary: `#fbbf24` (Yellow)
 - Success: `#10b981` (Green)
+- Brand Green: `#04B26B` (VowTrove brand color)
 - Background: `#f9fafb` (Light Gray)
 
 To change colors, edit the CSS variables in `styles.css`.
@@ -148,10 +171,10 @@ The website is fully responsive and includes:
 
 ## 📞 Contact Information
 
-Update the contact information in the HTML file:
-- Email: `hello@vowtrove.com`
-- Location: `San Francisco, CA`
-- GitHub: `github.com/vowtrove`
+Current contact information in the website:
+- Email: `vowtrove.team@gmail.com`
+- Support: Available through contact section
+- Response Time: Within 24 hours
 
 ## 🤝 Contributing
 
@@ -170,18 +193,41 @@ This project is open source and available under the [MIT License](LICENSE).
 If you need help with:
 - **GitHub Pages setup**: Check [GitHub Pages documentation](https://pages.github.com/)
 - **Customization**: Edit the HTML, CSS, and JavaScript files
-- **APK hosting**: Consider using GitHub Releases or external hosting services
+- **APK hosting**: Currently using Google Drive for optimal performance
+- **Contact**: Email `vowtrove.team@gmail.com` for support
 
 ## 🎯 Next Steps
 
 After hosting your website:
 
-1. **Add Real APK Files**: Upload your actual APK files and update the download links
+1. **Update Google Drive Link**: Replace with your actual APK file link
 2. **Custom Domain**: Set up a custom domain for your GitHub Pages site
 3. **Analytics**: Add Google Analytics to track visitors
-4. **SEO**: Optimize meta tags and descriptions
-5. **Social Media**: Add Open Graph tags for better social sharing
+4. **SEO**: Already optimized with structured data and meta tags
+5. **Social Media**: Open Graph tags already implemented
+6. **Provider Compliance**: Website is ready for offerwall provider reviews
+
+## 🔧 Technical Details
+
+- **HTML5**: Semantic markup with accessibility features
+- **CSS3**: Modern styling with Flexbox, Grid, and animations
+- **JavaScript**: Vanilla JS with ES6+ features and error handling
+- **Fonts**: Inter (Google Fonts)
+- **Icons**: Font Awesome 6
+- **Animations**: CSS transitions and JavaScript animations
+- **SEO**: Structured data (JSON-LD), sitemap, robots.txt
+- **Compliance**: Privacy policy and terms of service modals
+- **Performance**: Optimized loading and Google Drive integration
+
+## 📱 Mobile Responsiveness
+
+The website is fully responsive and includes:
+- Mobile navigation menu with hamburger icon
+- Responsive grid layouts that adapt to screen size
+- Touch-friendly buttons and interactive elements
+- Optimized typography for mobile devices
+- Overflow protection for all screen sizes
 
 ---
 
-**VowTrove** - Empowering users with innovative digital solutions! 🚀 
+**VowTrove** - Legitimate reward platform for earning game tokens! 🚀 
